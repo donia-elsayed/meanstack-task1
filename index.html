@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="usersForm">
+        <label for="nameInp">name</label>
+        <input type="text" id="nameInp" name="name">
+        <label for="age">age</label>
+        <input type="number" name="age">
+        <label for="status">status</label>
+        <select name="status" id="status" >
+            <option value="InActive" selected>InActive</option>
+            <option value="active">Active</option>
+        </select>
+        <button id="btnAdd"> Add</button>  
+    </form>
+    <table>
+      <thead>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Status</td>
+        <td>Update</td>
+        <td>Delete</td>
+      </thead>
+      <tbody id="usersBody">
+
+      </tbody>
+    </table>
+    <script src="users.js"></script>
+</body>
+</html>
